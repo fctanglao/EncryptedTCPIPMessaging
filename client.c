@@ -118,7 +118,7 @@ int main() {
 
     close(sock);
     RSA_free(private_key);
-    RSA_free(public_key);
+    RSA_free(server_public_key);
 
     return 0;
 }
