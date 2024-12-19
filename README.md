@@ -1,5 +1,10 @@
 # TCP/IP Encrypted Messaging
 
+## Project Motivation
+- I wrote this program for a final assignment in my Introduction to Cybersecurity class at Cal Poly Pomona
+- I wanted to apply what we learned about encryption and TCP/IP communication into something tangible
+- My goal is to elevate this program into an embedded application allowing people to communicate between different devices and networks
+
 ## Generating Server Public and Private Keys
 - ### openssl genrsa -out private.pem 2048
 - ### openssl rsa -in private.pem -pubout -out public.pem
